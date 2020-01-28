@@ -99,3 +99,38 @@ ul li {
   list-style: none;
   text-decoration: none;
 }
+
+header{
+  position: fixed;
+  width: 100%;
+  background: white;
+  top: 0;
+  z-index: 1;
+}
+
+nav{
+  background-color: whitesmoke;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4) 0 0 0 5px 1px;
+  height: 46px;
+}
+
+.left_nav {
+  float: left;
+  margin-top: -22px;
+
+}
+
+#ny_logo {
+text-align: center;
+
+}
+
+.right_nav {
+  float: right;
+margin-top: -22px;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+}
