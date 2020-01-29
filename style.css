@@ -38,7 +38,7 @@ body {
 }
 
 /* Remove list styles on ul, ol elements with a class attribute */
-ul[class],
+ul [class],
 ol[class] {
   list-style: none;
 }
@@ -100,7 +100,7 @@ ul li {
   text-decoration: none;
 }
 
-header{
+header {
   position: fixed;
   width: 100%;
   background: white;
@@ -108,29 +108,74 @@ header{
   z-index: 1;
 }
 
-nav{
-  background-color: whitesmoke;
+nav {
+  background-color: white;
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4) 0 0 0 5px 1px;
   height: 46px;
+  border-bottom: 1px solid lightgray;
+}
+
+#nav {
+  margin: 0 auto;
+  max-width: 1605px;
+  background: transparent;
+  border-bottom: 0;
+  padding: 4px 15px 2px;
 }
 
 .left_nav {
   float: left;
-  margin-top: -22px;
-
+  margin-top: -19px !important;
 }
 
 #ny_logo {
-text-align: center;
-
+  text-align: center;
+  font-family: newyork, sans-serif;
+  font-weight: 600;
 }
 
 .right_nav {
   float: right;
-margin-top: -22px;
+  margin-top: -21px !important;
 }
 
 nav li {
-    list-style: none;
-    display: inline;
+  list-style: none;
+  display: inline;
+}
+
+.button {
+  cursor: pointer;
+  border-radius: 3px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 700;
+  vertical-align: middle;
+  background-color: #567b95;
+  border: 1px solid #326891;
+  color: #fff;
+  font-size: 11px;
+  line-height: 11px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 11px 12px 8px;
+}
+
+button:hover {
+  border: 1px solid #326891;
+  background-color: #326891;
+}
+
+.li_space {
+  line-height: 20px;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.space_and_cosmos{
+  color: ;
+}
+
+.space_and_cosmos:hover {
+text-decoration: underline;
 }
