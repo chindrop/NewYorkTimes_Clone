@@ -172,12 +172,12 @@ button:hover {
   text-transform: uppercase;
 }
 
-.space_and_cosmos{
+.space_and_cosmos {
   color: ;
 }
 
 .space_and_cosmos:hover {
-text-decoration: underline;
+  text-decoration: underline;
 }
 
 .first_section {
@@ -185,32 +185,50 @@ text-decoration: underline;
 }
 
 .heading {
-      position: relative;
-      top: 10px;
-      margin-top: 80px;
-      left: 38%;
-
+  text-align: center;
+  margin-top: 100px;
+  font-style: italic;
+  font-size: 20px;
 }
 
 .first_img {
-display: block;
-margin: 0 auto;
-width: 65%;
-margin-top: 40px;
-
+  display: block;
+  margin: 0 auto;
+  width: 65%;
 }
 
- figcaption {
-  font-size: 9px;
-  line-height: 1.5; 
-  margin: 0 auto;
-  font-size: 14px;
+.figcaption {
+  font-size: 16px;
   line-height: 1.5;
-  text-align: center;
-  padding-top: 10px;
+  margin-left: ;
 }
 
 iframe {
   width: 560;
   height: 315;
 }
+
+.social{
+  width: 60%;
+  margin: 0 auto;
+}
+
+.socialbar {
+  display: flex;
+}
+
+.socialbar {
+justify-content: space-between;
+}
+
+.by_link {
+ padding-top: 40px;
+margin-bottom: 20px;
+
+}
+.by_link p {
+line-height: 1.25rem;
+color: #333;
+font-weight: 700;
+
+} 
