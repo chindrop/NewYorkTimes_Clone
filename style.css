@@ -172,10 +172,6 @@ button:hover {
   text-transform: uppercase;
 }
 
-.space_and_cosmos {
-  color: ;
-}
-
 .space_and_cosmos:hover {
   text-decoration: underline;
 }
@@ -200,7 +196,6 @@ button:hover {
 .figcaption {
   font-size: 16px;
   line-height: 1.5;
-  margin-left: ;
 }
 
 iframe {
@@ -208,27 +203,66 @@ iframe {
   height: 315;
 }
 
-.social{
-  width: 60%;
-  margin: 0 auto;
-}
-
 .socialbar {
   display: flex;
-}
-
-.socialbar {
-justify-content: space-between;
+  justify-content: space-between;
 }
 
 .by_link {
- padding-top: 40px;
-margin-bottom: 20px;
-
+  padding-top: 40px;
+  margin-bottom: 20px;
 }
-.by_link p {
-line-height: 1.25rem;
-color: #333;
-font-weight: 700;
 
-} 
+.by_link p {
+  line-height: 1.25rem;
+  color: #333;
+  font-weight: 709;
+  font-size: 1.35rem;
+}
+
+.social {
+  color: rgb(18, 18, 18);
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+}
+
+.by_link p a {
+  color: #333;
+}
+
+.by_link p a:hover {
+  text-decoration: none;
+}
+
+.socialbar {
+  list-style: none;
+}
+
+.right_social_container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.7rem;
+  
+}
+
+.right_social_container a {
+  text-decoration: none;
+  color: black;
+  padding: 0 10px;
+}
+.timestamp {
+  font-size: 1.5rem;
+}
+
+aside {
+  float: right;
+  width: 16%;
+}
+
+.main-content{
+  width: 60%;
+  margin: 0 auto;
+  text-align: justify;
+}
