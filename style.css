@@ -185,6 +185,10 @@ text-decoration: underline;
 }
 
 .heading {
+      position: relative;
+      top: 10px;
+      margin-top: 80px;
+      left: 38%;
 
 }
 
@@ -192,13 +196,18 @@ text-decoration: underline;
 display: block;
 margin: 0 auto;
 width: 65%;
+margin-top: 40px;
 
 }
 
  figcaption {
   font-size: 9px;
   line-height: 1.5; 
-  margin-left: 10px;
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  padding-top: 10px;
 }
 
 iframe {
