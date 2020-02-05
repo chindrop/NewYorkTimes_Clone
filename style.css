@@ -229,7 +229,7 @@ button:hover {
   font-size: 16px;
   line-height: 1.5;
   color: #666;
-  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  font-family: nyt-imperial, georgia,'times new roman', times, serif;
 }
 
 iframe {
@@ -240,6 +240,9 @@ iframe {
 
 .socialbar {
   display: flex;
+}
+
+.socialbar {
   justify-content: space-between;
 }
 
@@ -367,37 +370,37 @@ div.everything h2 {
 }
 .cards:nth-child(1) {
   top: 0px;
-  right: -32px;
+  right: 5px;
 }
 
 .cards:nth-child(2) {
   top: 0px;
-  right: -32px;
+  right: 0.5px;
 }
 
 .cards:nth-child(3) {
   top: 0px;
-  right: -32px;
+  right: -22px;
 }
 
 .cards:nth-child(4) {
   top: 0px;
-  right: -32px;
+  right: -34px;
 }
 
 .cards:nth-child(5) {
   top: 0px;
-  right: -32px;
+  right: 5px;
 }
 
 .cards:nth-child(6) {
   top: 0px;
-  right: -32px;
+  right: 0.5px;
 }
 
 .cards:nth-child(7) {
   top: 0px;
-  right: -32px;
+  right: -22px;
 }
 
 .cards:nth-child(8) {
