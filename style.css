@@ -118,6 +118,8 @@ nav {
   margin-left: 22px;
   font-size: 16px;
   padding-top: 9px;
+   position: relative;
+   top: -18px
 }
 
 .ul.left_nav {
@@ -151,14 +153,16 @@ a {
 #ny_logo {
   text-align: center;
   font-family: newyork, sans-serif;
-  font-weight: 600;
+  position: relative;
+  top: 6px;
+  font-size: 26px;
 }
 
 .right_nav {
   margin-top: -21px !important;
   position: relative;
-  left: 84%;
-  bottom: 10px
+  left: 83%;
+  top: -26px;
 }
 
 nav li {
@@ -243,6 +247,12 @@ iframe {
 
 .by_link p a:hover {
   text-decoration: none;
+}
+
+.by_link {
+  font-weight: 1000;
+  color: #333;
+  font-size: 14px;
 }
 
 .social {
@@ -606,10 +616,10 @@ figcaption {
 }
 
 .text_below_article {
-  font-family: newyork, Arial, Helvetica, sans-serif ;
+  font-family: Arial, Helvetica, sans-serif ;
   font-size: 1.1rem;
   font-weight: 500;
-  line-height: 1rem;
+  line-height: 1.5rem;
   margin: 0px auto 1em;
   color: #666666;
   width: calc(100% - 40px);
@@ -628,9 +638,9 @@ footer ul li {
 }
 
 #footer_sticky {
-  position: fixed;
+  position: sticky;
   border-top: 1px solid black;
-  line-height: 50px;
+  line-height: 25px;
   height: 50px;
   width: 100%;
   text-align: center;
@@ -655,6 +665,8 @@ footer ul li {
 div.footer_wrapper h2 a {
 margin-left: 62px;
 padding-bottom: 16px;
+font-family: newyork;
+  font-size: 21px;
 }
 
 .footer_wrapper {
