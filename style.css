@@ -1,35 +1,23 @@
 /* Box sizing rules */
-*,
-*::before,
-*::after {
+
+*, *::before, *::after {
   box-sizing: border-box;
 }
 
 /* Remove default padding */
-ul[class],
-ol[class] {
+
+ul[class], ol[class] {
   padding: 0;
 }
 
 /* Remove default margin */
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-ul[class],
-ol[class],
-li,
-figure,
-figcaption,
-blockquote,
-dl,
-dd {
+
+body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquote, dl, dd {
   margin: 0;
 }
 
 /* Set core body defaults */
+
 body {
   min-height: 100vh;
   scroll-behavior: smooth;
@@ -38,36 +26,38 @@ body {
 }
 
 /* Remove list styles on ul, ol elements with a class attribute */
-ul [class],
-ol[class] {
+
+ul [class], ol[class] {
   list-style: none;
 }
 
 /* A elements that don't have a class get default styles */
+
 a:not([class]) {
   text-decoration-skip-ink: auto;
 }
 
 /* Make images easier to work with */
+
 img {
   max-width: 100%;
   display: block;
 }
 
 /* Natural flow and rhythm in articles by default */
-article > * + * {
+
+article>*+* {
   margin-top: 1em;
 }
 
 /* Inherit fonts for inputs and buttons */
-input,
-button,
-textarea,
-select {
+
+input, button, textarea, select {
   font: inherit;
 }
 
 /* Remove all animations and transitions for people that prefer not to see them */
+
 @media (prefers-reduced-motion: reduce) {
   * {
     animation-duration: 0.01ms !important;
@@ -90,10 +80,9 @@ html {
   src: url(assets/fonts/Chomsky.woff);
 }
 
-html,
-body {
+html, body {
   overflow: auto;
-  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
 }
 
 ul li {
@@ -128,34 +117,35 @@ nav {
   margin-top: -19px !important;
   margin-left: 22px;
   font-size: 16px;
-      padding-top: 9px;
+  padding-top: 9px;
 }
 
 .ul.left_nav {
   font-size: 15px;
 }
+
 .fa-search {
   margin-left: 20px;
 }
 
 .space {
   font-size: 15px;
-  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.7px;
   line-height: 19px;
   text-decoration: none;
   margin-left: 25px;
-  }
+}
 
-  .space:hover {
-    text-decoration: underline;
-  }
+.space:hover {
+  text-decoration: underline;
+}
 
-  a {
-    text-decoration: none;
-    color: black;
+a {
+  text-decoration: none;
+  color: black;
 }
 
 #ny_logo {
@@ -229,20 +219,19 @@ button:hover {
   font-size: 16px;
   line-height: 1.5;
   color: #666;
-  font-family: nyt-imperial, georgia,'times new roman', times, serif;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
 }
 
 iframe {
+  display: block;
   width: 600px;
   height: 319px;
-  border-radius: 3px;
+  border: none;
+  margin: 0 auto;
 }
 
 .socialbar {
   display: flex;
-}
-
-.socialbar {
   justify-content: space-between;
 }
 
@@ -255,18 +244,18 @@ iframe {
 .by_link p a:hover {
   text-decoration: none;
 }
+
 .social {
   color: rgb(18, 18, 18);
   width: 60%;
   margin-left: auto;
   margin-bottom: 25px;
-  margin-right: auto ;
+  margin-right: auto;
   margin-top: 25px;
-  
 }
 
 .timestamp {
-  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 500;
   color: #333;
   font-size: 1.5rem;
@@ -281,6 +270,7 @@ iframe {
   height: 65px;
   width: 100px;
 }
+
 .envlopes_img {
   width: 100px;
   height: 100px;
@@ -297,14 +287,14 @@ iframe {
 }
 
 aside article h3 {
-      text-align: center;
-      font-size: 11px;
-      width: 100px;
+  text-align: center;
+  font-size: 11px;
+  width: 100px;
 }
 
 .genocide_pick {
-        display: flex;
-        margin-bottom: 12px;
+  display: flex;
+  margin-bottom: 12px;
 }
 
 .envlope_pick {
@@ -322,8 +312,6 @@ aside article h3 {
   font-size: 20px;
 }
 
-
-
 .small-word {
   text-align: center;
   width: 60%;
@@ -335,6 +323,7 @@ aside article h3 {
   width: 80px;
   margin: 0 auto;
 }
+
 div.everything h2 {
   font-size: 21px;
   margin-top: 13px;
@@ -354,7 +343,6 @@ div.everything h2 {
   background-repeat: no-repeat;
   background-size: contain;
   height: 576px;
-  
 }
 
 .cards {
@@ -366,8 +354,8 @@ div.everything h2 {
   padding-top: 138px;
   padding-left: 6px;
   position: relative;
-
 }
+
 .cards:nth-child(1) {
   top: 0px;
   right: 5px;
@@ -409,9 +397,9 @@ div.everything h2 {
 }
 
 #parting {
- width: 75%;
- margin: 0 auto;
- margin-top: 50px;
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 50px;
 }
 
 .end {
@@ -436,9 +424,17 @@ div.everything h2 {
 }
 
 .video {
-  width: 95%;
-  margin-top: 30px;
-  height: 300px;
+  margin: 20px 0;
+  padding: 30px 0;
+}
+
+.stanford_caption {
+  text-align: center;
+  font-size: 14px;
+}
+
+small{
+  color: lightgray;
 }
 
 .special_socialbar {
@@ -446,8 +442,8 @@ div.everything h2 {
   width: 60%;
   display: flex;
   justify-content: space-between;
-  }
-  
+}
+
 .socialbar {
   list-style: none;
 }
@@ -459,7 +455,7 @@ div.everything h2 {
   line-height: 33.5px;
 }
 
-.right_side{
+.right_side {
   position: relative;
   bottom: 54px;
 }
@@ -471,9 +467,9 @@ div.everything h2 {
 }
 
 .right_social_container a {
-text-decoration: none;
-color: black;
-padding: 0 10px;
+  text-decoration: none;
+  color: black;
+  padding: 0 10px;
 }
 
 #input {
@@ -483,16 +479,16 @@ padding: 0 10px;
 
 .extra_content {
   max-width: 100%;
-  display: flex;
+  display: grid;
 }
 
 .most_pop_right {
-  order: 2;
-  width: 25%;
+  order: ;
+  width: 20%;
 }
 
 .extra_main_content {
-width: 75%;
+  width: 75%;
 }
 
 .main_cont {
@@ -500,9 +496,8 @@ width: 75%;
 }
 
 .left_main_content {
-  display:flex;
-  flex-wrap: wrap; 
-
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .pop_content {
@@ -515,16 +510,17 @@ width: 75%;
   font-size: 16px;
   margin-top: 20px
 }
+
 .fig_author {
   color: #666;
-font-size: 12px;
-
+  font-size: 12px;
 }
 
 .image {
   width: 272.633px;
   height: 181px;
 }
+
 .south_img {
   padding-top: 19px;
   padding-bottom: 30px;
@@ -547,8 +543,8 @@ font-size: 12px;
 }
 
 .main_cont {
-display: flex;
-padding: 10px;
+  display: flex;
+  padding: 10px;
 }
 
 #heavy {
@@ -575,9 +571,10 @@ padding: 10px;
 }
 
 .e_links:last-child {
-padding: 15px;
-border-left: 1px solid;
+  padding: 15px;
+  border-left: 1px solid;
 }
+
 .e_links a {
   display: block;
   text-decoration: none;
@@ -589,17 +586,3 @@ border-left: 1px solid;
 .e_links a:hover {
   text-decoration: underline;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
