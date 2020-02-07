@@ -517,8 +517,8 @@ small{
 }
 
 .left_main_content {
-  display: flex;
-  flex-wrap: wrap;
+display: flex;
+flex-wrap: wrap;
 }
 
 .pop_content {
@@ -584,7 +584,7 @@ small{
 }
 
 .main_cont {
-  display: flex;
+  display: ;
   padding: 10px;
 }
 
