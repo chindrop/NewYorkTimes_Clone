@@ -9,7 +9,7 @@
 
 ## Built With
 
-- Html,
+- Html
 - CSS
 
 ## Live Demo
