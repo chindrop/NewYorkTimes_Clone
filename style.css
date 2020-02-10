@@ -177,6 +177,7 @@ nav {
 .the a {
   text-decoration: none;
   color: black;
+  font-family: newyork, Arial, Helvetica, sans-serif;
 }
 
 #ny_logo {
@@ -641,8 +642,6 @@ small {
 .footer_container {
   display: flex;
   justify-content: space-between;
-  width: 90%;
-  margin: 0 auto;
   padding-bottom: 15px;
   border-bottom: 1px solid lightgray;
   clear: both;
@@ -729,7 +728,7 @@ time {
   color: #666;
 }
 
-footer {
+.inside_footer {
   margin-bottom: 55px;
   justify-content: space-between;
 }
@@ -746,4 +745,9 @@ footer {
 
 #foot a {
   color: #666;
+}
+
+footer {
+  margin: auto;
+  width: 1200px;
 }
