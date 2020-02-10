@@ -307,6 +307,10 @@ iframe {
   margin: 3px 0;
 }
 
+.foot a {
+  color: #666;
+}
+
 div.e_links_top p a {
   font-weight: bolder;
 }
@@ -740,10 +744,6 @@ time {
   justify-content: space-around;
   display: flex;
   width: 80%;
-  color: #666;
-}
-
-.foot a {
   color: #666;
 }
 
