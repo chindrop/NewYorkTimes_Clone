@@ -1,4 +1,8 @@
 /* Box sizing rules */
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
 *,
 *::before,
@@ -49,6 +53,9 @@ ol[class] {
 }
 
 /* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
 
 /* Make images easier to work with */
 
@@ -293,11 +300,10 @@ iframe {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 500;
-  margin-top: -6px;
   display: block;
   text-decoration: none;
   color: rgb(18, 18, 18);
-  line-height: 2;
+  margin: 3px 0;
 }
 
 div.e_links_top p a {
@@ -371,6 +377,11 @@ aside article h3 {
   text-align: center;
   font-size: 11px;
   width: 100px;
+}
+
+.e_links h3 {
+  font-size: 90%;
+  font-family: sans-serif;
 }
 
 .genocide_pick {
@@ -635,7 +646,6 @@ small {
   padding-bottom: 15px;
   border-bottom: 1px solid lightgray;
   clear: both;
-  line-height: 25px;
   color: #333;
   font-size: 13px;
   font-weight: 700;
@@ -643,7 +653,6 @@ small {
 
 .e_links {
   display: inline-block;
-  width: 80px;
   vertical-align: top;
 }
 
@@ -720,7 +729,21 @@ time {
   color: #666;
 }
 
+footer {
+  margin-bottom: 55px;
+  justify-content: space-between;
+}
+
 #foot {
   padding: 0;
+  margin: 0 auto;
   text-align: center;
+  justify-content: space-around;
+  display: flex;
+  width: 80%;
+  color: #666;
+}
+
+#foot a {
+  color: #666;
 }
