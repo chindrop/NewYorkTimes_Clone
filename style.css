@@ -733,7 +733,7 @@ time {
   justify-content: space-between;
 }
 
-#foot {
+.foot {
   padding: 0;
   margin: 0 auto;
   text-align: center;
@@ -743,7 +743,7 @@ time {
   color: #666;
 }
 
-#foot a {
+.foot a {
   color: #666;
 }
 
